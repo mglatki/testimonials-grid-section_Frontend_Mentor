@@ -14,7 +14,12 @@
   }
 
   .post_tile {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+  }
 
+  .post_tile h1 {
+    background: inherit;
   }
 
   .dark_tile {
