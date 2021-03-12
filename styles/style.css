@@ -15,11 +15,13 @@
 
   .post_tile {
     border-radius: 0.5rem;
-    padding: 0.5rem;
+    padding: 1.5rem;
   }
 
   .post_tile h1 {
     background: inherit;
+    font-size: 1.41rem;
+    margin: 0.5rem 0;
   }
 
   .dark_tile {
