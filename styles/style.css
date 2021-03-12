@@ -12,5 +12,16 @@
   main {
 
   }
+
+  .post_tile {
+
+  }
+
+  .dark_tile {
+      background-color: grey;
+      color: white;
+  }
+
+
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
