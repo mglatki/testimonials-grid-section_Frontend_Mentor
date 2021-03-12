@@ -10,7 +10,9 @@
   }
 
   main {
-
+    margin: 1rem;
+    display: grid;
+    grid-gap: 1rem;
   }
 
   .post_tile {
