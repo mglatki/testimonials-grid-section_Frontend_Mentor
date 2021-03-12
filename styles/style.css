@@ -31,6 +31,25 @@
       color: white;
   }
 
+  author {
+      display: grid;
+      grid-column-gap: 1rem;
+      grid-template-columns: 3rem auto;
+      
+  }
+
+  author img {
+      height: 2.5rem;
+      border: solid 0.15rem white;
+      border-radius: 50%;
+
+      grid-row: 1/ span 2;
+  }
+
+  author description {
+      grid-column: 2/2;
+  }
+
 
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
