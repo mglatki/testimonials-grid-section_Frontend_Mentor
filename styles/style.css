@@ -6,7 +6,7 @@
   }
 
   body {
-
+    background-color: hsl(0, 0%, 81%);
   }
 
   main {
@@ -18,6 +18,7 @@
   .post_tile {
     border-radius: 0.5rem;
     padding: 1.5rem;
+    background-color: white;
   }
 
   .post_tile h1 {
@@ -47,9 +48,26 @@
   }
 
   author description {
+      font-size: 0.9rem;
       grid-column: 2/2;
+      opacity: 50%;
   }
 
+  tile p {
+      opacity: 70%;
+  }
+
+  .daniel {
+    background: hsl(263, 55%, 52%)
+  }
+
+  .jonathan {
+      background-color: hsl(217, 19%, 35%);
+  }
+
+  .patrick {
+      background-color: hsl(219, 29%, 14%);
+  }
 
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
