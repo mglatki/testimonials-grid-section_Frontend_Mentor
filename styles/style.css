@@ -53,3 +53,24 @@
 
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
+
+  @media (min-width: 600px) {
+    .wide_tile {
+        grid-column: span 2;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    main {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .post_tile {
+        max-height: 20rem;
+    }
+
+    .last_tile {
+        grid-row-start: 1;
+        grid-column-start: 4;
+    }
+  }
