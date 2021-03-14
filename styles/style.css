@@ -17,12 +17,13 @@
 
   .post_tile {
     border-radius: 0.5rem;
+    color: hsl(217, 19%, 35%);
     padding: 1.5rem;
     background-color: white;
   }
 
   .post_tile h1 {
-    background: inherit;
+    background: transparent;
     font-size: 1.41rem;
     margin: 0.5rem 0;
   }
@@ -58,7 +59,10 @@
   }
 
   .daniel {
-    background: hsl(263, 55%, 52%)
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 85% 0%;
   }
 
   .jonathan {
@@ -75,6 +79,10 @@
   @media (min-width: 600px) {
     .wide_tile {
         grid-column: span 2;
+    }
+
+    .daniel {
+      background-position: 75% 0%;
     }
   }
 
